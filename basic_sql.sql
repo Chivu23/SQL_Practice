@@ -1,14 +1,14 @@
 SELECT NOW();
 
 create database cinema;
-create database petclinic;
-create database humanresources;
+create database petClinic;
+create database humanResources;
 
 /*  IMPORTANT :
 all instructions is ENDING with ";"
 
 to specify which database is used we have next commands:
-- duble click on theat data base
+- double click on that data base
 - right click and select "Set as default schema"
 - "use <database>"
 */
@@ -17,8 +17,8 @@ to specify which database is used we have next commands:
 - name
 - min a column
 - type of data for each column define
-- propretis of column ( optional )
+- property of column ( optional )
 
-Data type is a prop of a column that specify system what kind of info is alow to add in that coloumn 8/
+Data type is a prop of a column that specify system what kind of info is allow to add in that column 8/
 
 
