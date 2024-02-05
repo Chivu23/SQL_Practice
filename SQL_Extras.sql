@@ -20,3 +20,14 @@
 --      * SELECT COUNT(CustomerID) as Nr Of Cust, Country FROM Customers GROUP BY Country;
 -- LIMIT is used to restrict the number of result retrieved from database
 -- a. SELECT * FROM table_name LIMIT 5;
+
+
+select * from owners;
+select * from owners order by dateOfBirth;
+select * from owners order by dateOfBirth desc;
+select * from owners order by age desc limit 1;
+select max(age) from owners;
+
+select o.ownerId.firsName, lastName, count(petId)
+from owners o inner join pets p on o.ownerId = p.ownerId
+group by o.ownerId, firsName, lastName;
